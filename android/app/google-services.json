@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "177490988877",
+    "project_id": "myhwtest-d33a0",
+    "storage_bucket": "myhwtest-d33a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177490988877:android:3b9f1eca219f69be8cb104",
+        "android_client_info": {
+          "package_name": "com.myhwtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177490988877-m5m6i3peuab45cr7dh9jil7rg1fcnuiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL43UnPUvpj-WhqpK-ejBy63T7bvvej6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177490988877-m5m6i3peuab45cr7dh9jil7rg1fcnuiq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
