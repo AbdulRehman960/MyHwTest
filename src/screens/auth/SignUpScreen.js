@@ -1,4 +1,4 @@
-import {StyleSheet, Text, View, Image} from 'react-native';
+import {StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native';
 import React, {useEffect, useState} from 'react';
 import Button from '../../components/Button.js';
 import English from '../../assets/languages/en.json';
@@ -76,6 +76,11 @@ const SignUpScreen = ({navigation}) => {
               handleSignUp();
             }}
           />
+          <TouchableOpacity
+            style={{alignSelf: 'center', marginTop: 30}}
+            onPress={() => navigation.navigate('LoginScreen')}>
+            <Text>Already Have Account? SignIn</Text>
+          </TouchableOpacity>
         </View>
       </View>
     </MainInputTranscluentView>

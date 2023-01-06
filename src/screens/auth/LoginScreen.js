@@ -8,6 +8,7 @@ import InputText from '../../components/InputText.js';
 import LoadingPage from '../../components/LoadingPage.js';
 import auth from '@react-native-firebase/auth';
 import Helper from '../../utils/Helper';
+import {TouchableOpacity} from 'react-native-gesture-handler';
 let help = new Helper();
 const LoginScreen = ({navigation}) => {
   const [secureText, setSecureText] = useState(true);
@@ -82,6 +83,11 @@ const LoginScreen = ({navigation}) => {
               handleSignIn();
             }}
           />
+          <TouchableOpacity
+            style={{alignSelf: 'center', marginTop: 30}}
+            onPress={() => navigation.navigate('SignUpScreen')}>
+            <Text>Don`t Have Account? SignUp</Text>
+          </TouchableOpacity>
         </View>
       </View>
     </MainInputTranscluentView>
